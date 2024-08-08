@@ -1,0 +1,213 @@
+.postpane {
+  background-color: rgb(235, 235, 235);
+  flex: 5;
+  cursor: pointer;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  
+  
+}
+
+.pagpic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}
+
+.friendnamepropic {
+  width: 100%;
+  display: flex;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+}
+.friendpostimg{
+
+  background-color: rgba(124, 123, 123, 0.214);
+  width: auto;
+  height: auto;
+
+
+}
+.postimg{
+
+  width: 80%;
+  height:auto;
+  margin-left: 10%;
+}
+.postppImage {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.friendpost {
+  width: auto;
+  height: auto;
+
+}
+
+.likecommentsharePallet {
+  width: 100%;
+  height: 50px;
+  background-color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.post1 {
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 0%;
+  padding-right: 0%;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.nofLikecsPallet {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.post2 {
+  width: 95%;
+  height: 90%;
+  background-color: rgb(197, 208, 255);
+  margin-left: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.share {
+  width: 100%;
+  margin-left: 18px;
+  position: relative;
+}
+.shareWrapper {
+  height: 130px;
+  width: 90%;
+  -webkit-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+}
+
+.shareTop {
+  display: flex;
+}
+.shareProfileImage {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.shareInput {
+  margin-left: 15px;
+  width: 80%;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(240, 231, 231);
+  border-radius: 20px;
+  opacity: 0.6;
+}
+.shareInput:hover {
+  cursor: pointer;
+  outline: none;
+  opacity: 0.8;
+}
+
+.shareHr {
+  margin: 20px 0px;
+  opacity: 0.3;
+}
+
+.shareOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.shareOption {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.shareOption:hover {
+  border-radius: 5px;
+  background-color: rgb(230, 230, 230);
+}
+.shareOptionText {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(146, 141, 141);
+}
+.shareIcon {
+  font-size: 26px;
+}
+
+@media only screen and (max-width: 900px) {
+  .shareOptionText {
+    display: flex;
+  }
+  .shareOptionLongText {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .shareOptionLongText {
+    display: flex;
+  }
+  .shareOptionText {
+    display: none;
+  }
+}
+
+.postpn {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.postRsideCloseOpbtn {
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+.reactionamount {
+  margin-bottom: 4px;
+  margin-left: 5px;
+}
+
+.commentsamount{
+
+    margin-left: 55%;
+    
+}
+
+.sharesamount{
+
+    margin-left: 8px;
+}
+
+.hrbottom{
+
+  width:95%;
+  text-align:left;
+  margin-left:15px;
+  height: 1px;
+  background-color:rgba(59, 59, 59, 0.288);
+}
